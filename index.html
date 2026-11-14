@@ -36,7 +36,7 @@ header{border-bottom:1px solid var(--line);background:#fff}
 .btn-alt{background:#fff;color:var(--navy);border:2px solid var(--navy)}
 .hero{padding:14px 0 18px;background:linear-gradient(#fff,var(--bg))}
 .proof{font-size:.9rem;color:var(--mute);margin:0 0 10px}
-.stars{color:#c98a00;letter-spacing:1px}
+.stars{color:#8a5a00;letter-spacing:1px}
 .sub{color:var(--mute);margin-bottom:12px}
 .offer{background:var(--red);color:#fff;border-radius:12px;padding:12px 14px;margin:0 0 12px}
 .offer strong{display:block;font-size:1.5rem;line-height:1.1;font-weight:900}
@@ -55,6 +55,9 @@ section{padding:28px 0}
 .reviews{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;-webkit-overflow-scrolling:touch}
 .rv{flex:0 0 86%;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}
 .rv p{font-size:.95rem}
+.rv{margin:0}
+.src{font-size:.8rem;color:var(--mute)}
+.more{margin:12px 0 0;font-weight:700}
 .rv .who{font-weight:700;color:var(--navy);font-size:.9rem;margin-bottom:6px}
 .why{list-style:none;padding:0;margin:0;display:grid;gap:10px}
 .why li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--red);border-radius:8px;padding:10px 12px}
@@ -83,8 +86,7 @@ footer p{margin:0 0 6px}
  .cta{flex-direction:row}
  .cta .btn{width:auto;padding:0 28px}
  .hours{text-align:left}
- .rv{flex:1 1 0}
- .reviews{overflow:visible}
+ .reviews{display:grid;grid-template-columns:1fr 1fr;overflow:visible}
  .why{grid-template-columns:1fr 1fr}
  .steps{grid-template-columns:repeat(3,1fr)}
  .two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
@@ -142,19 +144,28 @@ body.after .open-t{display:none}
   <h2 id="rv-h">What customers say</h2>
   <p class="proof"><b class="rating">4.8 <span class="stars">★</span> · 226 Google reviews</b></p>
   <div class="reviews">
-   <figure class="rv" style="margin:0">
-    <div class="who">Richard Martin</div>
-    <p>"We called Sweeney because they had excellent reviews. We were not disappointed! The Sweeney Team cleaned our furniture and carpeting PERFECTLY within a few days of calling them. They were prompt, courteous, and professional and an EXCELLENT VALUE! Thank you Sweeney for a job EXCELLENTLY done!"</p>
+   <figure class="rv">
+    <div class="who">Ron G. <span class="stars" aria-hidden="true">★★★★★</span></div>
+    <p>&#8220;What a great experience with Sweeney Cleaning Company! I called on a Thursday, and they were here promptly on Friday to clean our carpets and chairs. They completed everything in less than an hour, did an excellent job, and charged an incredibly fair price. ... We&#8217;ll definitely be using them annually. Highly recommend!&#8221;</p>
+    <div class="src">Google review</div>
    </figure>
-   <figure class="rv" style="margin:0">
-    <div class="who">Kathy Foote</div>
-    <p>"What a great job the crew did cleaning the tile and grout in my entire house. You could eat off of the floors! Have never had a cleaning this good. Excellent service, professional, friendly and most of all honest. Great value for the work done. My floors look like new again!"</p>
+   <figure class="rv">
+    <div class="who">Wendy H. <span class="stars" aria-hidden="true">★★★★★</span></div>
+    <p>&#8220;We have had Sweeney cleaning our carpets and dryer vent for over a decade now. They are reliable, efficient, and cost effective. Their crew is always polite and personable. ... Highly recommend this family-owned business!&#8221;</p>
+    <div class="src">Google review</div>
    </figure>
-   <figure class="rv" style="margin:0">
-    <div class="who">Paulomi Desai</div>
-    <p>"Very punctual arrived on time and started cleaning the outdoor furniture and the pillows right away! Didn't rush the job, and when they were done the furniture and pillows looked like brand new!"</p>
+   <figure class="rv">
+    <div class="who">Robert W. <span class="stars" aria-hidden="true">★★★★★</span></div>
+    <p>&#8220;Really did an excellent job on some very dirty carpets. Good communication, timely service and fairly priced. I am completely satisfied with their work.&#8221;</p>
+    <div class="src">Google review</div>
+   </figure>
+   <figure class="rv">
+    <div class="who">Mark C. <span class="stars" aria-hidden="true">★★★★★</span></div>
+    <p>&#8220;Sweeney did a great job cleaning our carpets. Friendly professional service and they explained the process they use very well. I would highly recommend to anyone looking to get their carpets cleaned.&#8221;</p>
+    <div class="src">Google review</div>
    </figure>
   </div>
+  <p class="more"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sweeney%20Cleaning%20Co&amp;query_place_id=ChIJszD5Q0pBw4gRXaDYT0GDO-0" target="_blank" rel="noopener nofollow">Read all 226 reviews on Google</a></p>
  </div>
 </section>
 
